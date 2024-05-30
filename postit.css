@@ -1,0 +1,45 @@
+
+main {
+    background-image: url();
+    border: 1px solid black;
+    width: 90%;
+    margin: 2em auto;
+    flex-wrap: wrap;
+    padding: 2em;
+    /* position: relative; */
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+    background-color: lightblue;
+    z-index: 0;
+    rotate: -23deg;
+}
+
+.card:hover {
+    scale: 1.7;
+    rotate: 0deg;
+    transition: rotate 100ms, scale 100ms;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
